@@ -7,6 +7,11 @@ class HeaderComponent {
     get spanishOption() {
         return $('//a[contains(@class, "dropdown-item") and (contains(text(), "ES") or contains(text(), "Español"))]');
     }
+
+    async switchToSpanish() {
+        await this.languageDropdown.click();
+        await this.spanishOption.click();
+    }
 }
 
 export default new HeaderComponent();
