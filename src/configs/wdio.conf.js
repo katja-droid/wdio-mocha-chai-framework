@@ -2,7 +2,7 @@ import 'dotenv/config';
 
 export const config = {
     runner: 'local',
-    specs: ['./src/tests/specs/**/*.spec.js'],
+    specs: ['./src/tests/**/*.spec.js'],
     maxInstances: 10,
     capabilities: [{
         browserName: 'chrome'

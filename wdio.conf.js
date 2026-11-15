@@ -1,1 +1,1 @@
-export { config } from './src/tests/config/wdio.conf.js';
+export { config } from './src/configs/wdio.conf.js';

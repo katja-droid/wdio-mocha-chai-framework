@@ -1,6 +1,6 @@
 import { assert, expect } from 'chai';
-import { homePage, loginPage, productPage, checkoutPage } from '../../business/index.js';
-import { testData } from '../data/test-data.js';
+import { homePage, loginPage, productPage, checkoutPage } from '../po/index.js';
+import { testData } from './data/test-data.js';
 
 const loginUser = async () => {
     await loginPage.open();
